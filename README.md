@@ -19,7 +19,7 @@ A clean and simple multi-page internship or company website built with HTML, CSS
 - JavaScript 
 
 ## 📁 Folder Structure
-
+```
 Inernship-website/
 ├── index.html
 ├── about.html
@@ -27,7 +27,7 @@ Inernship-website/
 ├── style.css
 ├── script.js
 └── internship.png
-
+```
 
 
 ## 👨‍💻 Author
