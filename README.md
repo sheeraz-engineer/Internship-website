@@ -28,7 +28,7 @@ Inernship-website/
 ├── script.js
 └── internship.png
 ```
-
+ 
 
 ## 👨‍💻 Author
 **Sheeraz Ahmed**  
