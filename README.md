@@ -15,7 +15,7 @@ A clean and simple multi-page internship or company website built with HTML, CSS
 
 ## 🔧 Technologies Used
 - HTML5
-- CSS3
+- CSS
 - JavaScript 
 
 ## 📁 Folder Structure
