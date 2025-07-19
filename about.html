@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Internship Portal</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>About Our Internship Program</h1>
+        <p>Our remote internship program offers flexibility and access to global mentors. Interns work on real projects, gain valuable industry insights, and improve their technical and communication skills from the comfort of their homes.</p>
+        <p>By participating in our program, students develop a strong portfolio, increase their job readiness, and become part of a growing professional community that values remote collaboration and innovation.</p>
+        
+        <img src="internship.png" alt="Illustration showing remote internship collaboration" class="about-image">
+
+        <button id="scrollTopBtn" onclick="scrollToTop()" aria-label="Scroll to top">↑ Top</button>
+    </main>
+
+    <script>
+        // Show button only when scrolled down
+        const scrollBtn = document.getElementById("scrollTopBtn");
+        window.onscroll = function () {
+            scrollBtn.style.display = window.scrollY > 100 ? "block" : "none";
+        };
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
